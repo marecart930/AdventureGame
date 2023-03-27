@@ -43,7 +43,7 @@
             this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 401);
+            this.button1.Location = new System.Drawing.Point(12, 434);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(171, 88);
             this.button1.TabIndex = 1;
@@ -56,7 +56,7 @@
             this.button2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(183, 401);
+            this.button2.Location = new System.Drawing.Point(183, 434);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(171, 88);
             this.button2.TabIndex = 2;
@@ -69,7 +69,7 @@
             this.button3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("MV Boli", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(354, 401);
+            this.button3.Location = new System.Drawing.Point(354, 434);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(171, 88);
             this.button3.TabIndex = 3;
@@ -83,7 +83,7 @@
             this.topLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.topLabel.Location = new System.Drawing.Point(12, 10);
             this.topLabel.Name = "topLabel";
-            this.topLabel.Size = new System.Drawing.Size(513, 43);
+            this.topLabel.Size = new System.Drawing.Size(513, 62);
             this.topLabel.TabIndex = 5;
             this.topLabel.Text = "topLabel";
             // 
@@ -93,7 +93,7 @@
             this.bottomLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bottomLabel.Location = new System.Drawing.Point(12, 348);
             this.bottomLabel.Name = "bottomLabel";
-            this.bottomLabel.Size = new System.Drawing.Size(513, 43);
+            this.bottomLabel.Size = new System.Drawing.Size(513, 83);
             this.bottomLabel.TabIndex = 6;
             this.bottomLabel.Text = "bottomLabel";
             this.bottomLabel.Click += new System.EventHandler(this.label3_Click);
@@ -109,13 +109,14 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(537, 501);
+            this.ClientSize = new System.Drawing.Size(537, 534);
             this.Controls.Add(this.bottomLabel);
             this.Controls.Add(this.topLabel);
             this.Controls.Add(this.pictureBox1);

@@ -60,7 +60,7 @@ namespace AdventureGame
                     button1.Text = "Play again";
                     button2.Text = "";
                     button3.Text = "Quit";
-                    //pictureBox1.Image = Properties.Resources.gameover
+                    pictureBox1.Image = Properties.Resources.gameover;
                     break;
                 case 12:
                     topLabel.Text = $"The store explodes and you die...";
@@ -75,7 +75,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    pictureBox1.Image = Properties.Resources.doorframe;
                     break;
 
             }
@@ -170,7 +170,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    //pictureBox1.Image = Properties.Resources.blank;
                     break;
                 case 2:
                     topLabel.Text = "The figure got nervous and killed you";
@@ -178,15 +178,15 @@ namespace AdventureGame
                     button1.Text = "Play again";
                     button2.Text = "";
                     button3.Text = "Quit";
-                    //pictureBox1.Image = Properties.Resources.gameover
+                    pictureBox1.Image = Properties.Resources.gameover;
                     break;
                 case 4:
                     topLabel.Text = "You enter the hall and dont see anything.";
                     bottomLabel.Text = " Where do you go? ";
                     button1.Text = "Go down the hall";
                     button2.Text = "Go back to sleep";
-                    button3.Text = "Take the stairs";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    button3.Text = "Take the stairs"; 
+                    //pictureBox1.Image = Properties.Resources.blank;
                     break;
                 case 5:
                     topLabel.Text = "You come across the dark figure in the hallway";
@@ -194,7 +194,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    //pictureBox1.Image = Properties.Resources.blank;
                     break;
                 case 6:
                     topLabel.Text = "The figure falls deeply in love with you stepping into the lightrevealing that it was Ryan Reynolds the entire time";
@@ -202,7 +202,7 @@ namespace AdventureGame
                     button1.Text = "Play again";
                     button2.Text = "";
                     button3.Text = "Quit";
-                    //pictureBox1.Image = Properties.Resources.gameover
+                    pictureBox1.Image = Properties.Resources.gameover;
                     break;
                 case 9:
                     topLabel.Text = "You leave to get some milk";
@@ -226,7 +226,7 @@ namespace AdventureGame
                     button1.Text = "Give him the milk";
                     button2.Text = "";
                     button3.Text = "Dont give him the milk";
-                    pictureBox1.Image = Properties.Resources.carbike;
+                    pictureBox1.Image = Properties.Resources.homeless;
                     break;
                 case 15:
                     topLabel.Text = "He gets visibly disappointed in you";
@@ -234,7 +234,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    pictureBox1.Image = Properties.Resources.carbike;
+                    pictureBox1.Image = Properties.Resources.homeless;
                     break;
                 case 16:
                     topLabel.Text = "The man gratefully drinks the milk and reveals he is actuallyMr.Beast (You just won $10M)";
@@ -242,7 +242,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    pictureBox1.Image = Properties.Resources.carbike;
+                    pictureBox1.Image = Properties.Resources.mrbeast;
                     break;
                 case 17:
                     topLabel.Text = "You drink too much milk and die due to overconsumption...";
@@ -257,7 +257,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    pictureBox1.Image = Properties.Resources.carbike;
+                    pictureBox1.Image = Properties.Resources.doorframe;
                     break;
             }
         }
@@ -338,7 +338,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.fridge
+                    pictureBox1.Image = Properties.Resources.fridge;
                     break;
                 case 2:
                     topLabel.Text = "You die of dehydration ...";
@@ -353,7 +353,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    pictureBox1.Image = Properties.Resources.doorframe;
                     break;
                 case 3:
                     topLabel.Text = "You close your eyes to go back to sleep and are killed by the figure almost instantly.";
@@ -361,7 +361,7 @@ namespace AdventureGame
                     button1.Text = "Play again";
                     button2.Text = "";
                     button3.Text = "Quit";
-                    //pictureBox1.Image = Properties.Resources.gameover
+                    pictureBox1.Image = Properties.Resources.gameover;
                     break;
                 case 7:
                     topLabel.Text = "You notice a light and investigate. Your fridge has been left open so you check it and notice...Your fridge has ran out of milk";
@@ -369,7 +369,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    //pictureBox1.Image = Properties.Resources.blank;
                     break;
                 case 8:
                     topLabel.Text = "The dark figure gets lonely and kills you";
@@ -377,7 +377,7 @@ namespace AdventureGame
                     button1.Text = "Play again";
                     button2.Text = "";
                     button3.Text = "Quit";
-                    //pictureBox1.Image = Properties.Resources.gameover
+                    pictureBox1.Image = Properties.Resources.gameover;
                     break;
                 case 10:
                     topLabel.Text = "You get hit by a car and die...";
@@ -392,7 +392,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    pictureBox1.Image = Properties.Resources.doorframe;
                     break;
                 case 12:
                     topLabel.Text = "The store explodes and you die...";
@@ -407,7 +407,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    pictureBox1.Image = Properties.Resources.doorframe;
                     break;
                 case 15:
                     topLabel.Text = "He gets visibly disappointed in you";
@@ -415,7 +415,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    pictureBox1.Image = Properties.Resources.homeless;
                     break;
                 case 16:
                     topLabel.Text = "The man gratefully drinks the milk and reveals he is actually Mr.Beast (You just won $10M)";
@@ -423,7 +423,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    pictureBox1.Image = Properties.Resources.mrbeast;
                     break;
                 case 17:
                     topLabel.Text = "You drink too much milk and die due to overconsumption";
@@ -431,7 +431,7 @@ namespace AdventureGame
                     button1.Text = "Play again";
                     button2.Text = "";
                     button3.Text = "Quit";
-                    //pictureBox1.Image = Properties.Resources.gameover
+                    pictureBox1.Image = Properties.Resources.gameover;
                     break;
                 case 18:
                     topLabel.Text = "You drink the milk in his face then drive home with no milk...Your fridge has ran out of milk";
@@ -439,7 +439,7 @@ namespace AdventureGame
                     button1.Text = "Yes";
                     button2.Text = "";
                     button3.Text = "No";
-                    //pictureBox1.Image = Properties.Resources.blank
+                    pictureBox1.Image = Properties.Resources.fridge;
                     break;
                 case 20:
                     Refresh();

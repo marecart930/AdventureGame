@@ -109,5 +109,17 @@
   <ItemGroup>
     <None Include="Resources\bird.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mrbeast.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeless.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homeless.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
